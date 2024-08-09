@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <title>Werner Chemistry Biharsarif</title>
+</head>
+
+<body>
+
+    <!----Header---->
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="images/logo.png" alt="Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="about-box">
+            <h1>About Us</h1>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Werner chemistry </h1>
+                <p>Welcome to our Class 12th Chemistry class! We are a group of enthusiastic learners passionate about exploring the wonders of chemistry. Guided by our dedicated teacher, we delve into the intricacies of physical, organic, and inorganic chemistry. Our classroom is a vibrant space where curiosity thrives, and questions are encouraged. Through hands-on experiments and collaborative projects, we connect theoretical concepts to real-world applications. We aim to develop critical thinking and problem-solving skills essential for future studies. Together, we foster a supportive environment that celebrates teamwork and innovation. Join us on this exciting journey as we unlock the secrets of the chemical world!</p>
+                <a href="" class="hero-btn-red">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!----Footer---->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Welcome to our Class 12 Coaching Center! We are dedicated to empowering students with in-depth knowledge and practical skills in subjects like Chemistry, Physics, and Mathematics. Our experienced instructors use innovative teaching methods to make learning engaging and effective. We provide personalized attention, regular assessments, and a supportive environment to help students excel. Join us to achieve your academic goals and build a strong foundation for your future!</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitch" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> By <a href="#">Ayush</a></p>
+    </section>
+
+
+    <!---Javascript for toggole menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
